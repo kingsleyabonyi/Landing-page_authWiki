@@ -333,3 +333,136 @@ gap:4%;
 flex-basis:48%;
 }
 }
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+    .bottom_main_footer .copyright{
+        font-size: 1.3em;
+    }
+    .bottom_main_footer .copyright_icon{
+        height: 2%;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .bottom_main_footer .copyright{
+        margin-top: 70px;
+    } 
+}
+
+@media (min-width: 768px) {
+
+    footer{
+        height: 50%;
+    }
+    .bottom_main_footer .copyright{
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .top_main_footer img.icons{
+        margin-right: 10px;
+        margin-left: 0;
+    }
+    .top_main_footer .second_flex h2, .top_main_footer .third_flex h2{
+        font-size: 1.2em;
+    }
+
+.top_main_footer
+  div.second_flex.text_blue,
+  div.third_flex.text_blue  {
+        margin-top: 20px;
+        height: 200px;
+    }
+    .top_main_footer
+    .first_flex
+    .auth, .top_main_footer
+    .first_flex
+    .appstore,
+    .top_main_footer
+    .first_flex .googplay{
+        width: 80%;
+        margin-left: 15px ;
+    }
+}
+
+@media (min-width: 576px) {
+    .bottom_main_footer .copyright{
+        font-size: 0;
+
+    }
+    .bottom_main_footer .copyright_icon{
+        width: 0;
+    }
+
+    footer.main_footer{
+        height: 30vh;
+    }
+    .top_main_footer .second_flex h2, .top_main_footer .third_flex h2{
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .top_main_footer img.icons{
+        width: 60%;
+        height: 12%;
+        position: relative;
+        right: 50px;
+        margin-top: 15px;
+    }
+
+    .top_main_footer .auth{
+        margin-bottom: 30px;
+    }
+
+
+
+    .bottom_main_footer{
+        height: 0;
+        width: 0;
+    }
+
+     .top_main_footer{
+        margin-top: 0;
+     }
+
+div.second_flex.text_blue,
+  div.third_flex.text_blue  {
+        margin-top: 70px;
+        height: 120px;
+    }
+
+    .top_main_footer .third_flex{
+        position: relative;
+        left: 50px;
+    }
+
+     .top_main_footer
+    .first_flex
+    .auth, .top_main_footer
+    .first_flex
+    .appstore,
+    .top_main_footer
+    .first_flex .googplay{
+        width: 40%;
+        margin-left: 15px ;
+        position: relative;
+        left: 10px;
+        top: 20px;
+    }
+    img.appstore{
+        margin-top: 10px;
+    }
+
+    .first_flex{
+        margin: 0 5px;
+    }
+
+}
+
